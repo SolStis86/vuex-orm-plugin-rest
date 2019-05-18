@@ -4,7 +4,7 @@
   "description": "Vuex-ORM persistence plugin to sync the store against a ReST API.",
   "main": "dist/vuex-orm-rest.umd.js",
   "module": "dist/vuex-orm-rest.es5.js",
-  "typings": "dist/types/vuex-orm-rest.d.ts",
+  "typings": "dist/types/VuexORMReST.d.ts",
   "files": [
     "dist"
   ],
