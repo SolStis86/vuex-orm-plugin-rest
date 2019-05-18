@@ -11,7 +11,7 @@
   "scripts": {
     "lint": "tslint  --project tsconfig.json -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "prebuild": "rimraf dist",
-    "build": "tsc --module commonjs && rollup -c rollup.config.ts && npm run build:docs",
+    "build": "tsc --module commonjs && rollup -c rollup.config.ts",
     "build:docs": "vuepress build docs",
     "start": "rollup -c rollup.config.ts -w",
     "test": "jest",

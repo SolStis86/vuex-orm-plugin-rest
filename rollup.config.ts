@@ -22,7 +22,7 @@ import babel from 'rollup-plugin-babel';
 
 const pkg = require('./package.json');
 
-const libraryName = 'vuex-orm-graphql';
+const libraryName = 'vuex-orm-rest';
 
 export default {
   input: `src/index.ts`,
