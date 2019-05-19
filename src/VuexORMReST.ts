@@ -6,7 +6,7 @@ import Persist from './actions/Persist';
 import Put from './actions/Put';
 import Destroy from './actions/Destroy';
 import FetchAll from './actions/FetchAll';
-import {isPlainObject} from './support/utils';
+import { isPlainObject } from './support/utils';
 
 export default class VuexORMReST {
 

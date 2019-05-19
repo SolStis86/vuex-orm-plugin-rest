@@ -1,21 +1,9 @@
-# Crewsaders Front End API Module
+# Vuex ReST Plugin
 
 ### Installation
-`yarn add https://github.com/crewsaders/frontend-api`
+`yarn add https://github.com/SolStis86/vuex-orm-rest`
 ### Usage
 #### Gerneral
 ```js
-import { default as Api } from '@crewsaders/api'
-
-const ApiInstance = Api.createInstance('https://api.crewsaders.com', localStorage.getItem('token'));
-```
-#### Vue Plugin
-```js
-import Vue from 'vue';
-import { ApiPlugin } from '@crewsaders/api';
-
-Vue.use(ApiPlugin, {
-  baseURL: 'https://api.crewsaders.com',
-  token: localStorage.getItem('token'),
-});
+import VuexORMReST from '@vuex-orm/plugin-rest'
 ```

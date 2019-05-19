@@ -31,7 +31,7 @@ export default {
     { file: pkg.module, format: 'es', sourcemap: true }
   ],
   // Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')
-  external: [],
+  external: ['inherits'],
   watch: {
     include: 'src/**'
   },
